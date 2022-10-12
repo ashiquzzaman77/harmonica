@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Harmonica</title>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Harmonica Product">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Md Ashiquzzaman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- owl carasoul -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- resconsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- start header section -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark opacity-75 fixed-top">
+            <div class="container-sm">
+                <a class="navbar-brand text-white fs-4" href="index.html"><img src="assets/img/brand.png" class="img-fluid w-25"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="nav-link text-white dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Our History</a></li>
+                                <li><a class="dropdown-item" href="#">Mission & Vission</a></li>
+                                <li><a class="dropdown-item" href="#">Mangement Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="nav-link text-white dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Business
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Agro Firm</a></li>
+                                <li><a class="dropdown-item" href="#">Consultancy</a></li>
+                                <li><a class="dropdown-item" href="#">Event Management</a></li>
+                                <li><a class="dropdown-item" href="#">Export & Import</a></li>
+                                <li><a class="dropdown-item" href="supplier.html">Supplier</a></li>
+                                <li><a class="dropdown-item" href="#">E-Commerce</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-white" href="#">Career</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner slider part -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active content-center" data-bs-interval="10000">
+                    <img src="assets/img/banner-1.jpg" class="d-block w-100 img-fluid" alt="banner image"
+                        title="Banner Image">
+                    <!-- <div class="carousel-caption layer pt-5">
+                        <h5 class="pt-5">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item content-center" data-bs-interval="5000">
+                    <img src="assets/img/banner-2.jpg" class="d-block w-100 img-fluid" alt="banner image"
+                        title="Banner Image">
+                    <!-- <div class="carousel-caption layer pt-5">
+                        <h5 class="pt-5">Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item content-center">
+                    <img src="assets/img/banner-3.jpg" class="d-block w-100 img-fluid" alt="banner image"
+                        title="Banner Image">
+                    <!-- <div class="carousel-caption layer pt-5">
+                        <h5 class="pt-5">Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </header>
+    <!-- end header section -->
+    <!-- start content-part section -->
+    <section id="content-part">
+        <div class="container-fluid">
+            <h2 class=" opacity-25">BUILDING YOUR DREAM THROUGH PLAN TO PERFECTION</h2>
+            <p>We prevail every stage of your Life by building your dream. Being one-stop service provider, P2P is
+                confident enough to create an aura of excellence in your life.</p>
+        </div>
+    </section>
+    <!-- end content-part section -->
+    <!-- start gallery section -->
+    <section id="gallery">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 gx-0">
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-1.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>Agro Firm</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="#" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-1.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100 extra-img">
+                </div>
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-2.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>Consultancy</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="#" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-2.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-3.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                </div>
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-3.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>Event Management</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="#" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-4.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                </div>
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-4.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>Export & Import</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="#" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-5.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>Supplier</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="supplier.html" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-5.jpg" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100 extra-img">
+                </div>
+                <div class="col gallery-body">
+                    <img src="assets/img/gallery-6.png" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100">
+                    <div class="layer2">
+                        <h5>E-commerce</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur sed qui! Delectus
+                            nostrum veniam illum fugiat! Nisi, omnis! Dignissimos?</p>
+                            <a href="e-commerce.html" class="text-white text-decoration-none hover-effect pt-2">Read More&nbsp;&#8594;</a>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="assets/img/gallery-6.png" alt="Gallery Image" title="Gallery Image"
+                        class="img-fluid w-100 extra-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end gallery section -->
+    <!-- start blog section  -->
+    <section id="blog-section">
+        <div class="container-sm">
+            <div class="blog-body">
+                <div class="col-12 col-md-6 blog-left">
+                    <h3>Why P2P</h3>
+                    <p>We have perfect blend of knowledge and talents that comprises of specialist engineers,
+                        architects, interior designers and resource study consultants. These unique teams help us
+                        understand and provide solutions for any personalized requirements of our clients.</p>
+                    <a href="#" class="read-more">Read More&nbsp;&#8594;</a>
+                </div>
+                <div class="blog-right">
+                    <div class="blog-pic">
+                        <div class="overlay">
+                            <img src="assets/img/blog-1.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <img src="assets/img/blog-2.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <img src="assets/img/blog-3.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <img src="assets/img/blog-2.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <img src="assets/img/blog-3.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <img src="assets/img/blog-1.png" alt="blog-image" title="Blog Image"
+                                class="img-fluid w-100 overlay-info">
+                            <div class="layer44">
+                                <p class="text-white fw-bolder">One Stop Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog section  -->
+    <!-- start client section -->
+    <section id="client-section">
+        <div class="clinet-body owl-carousel owl-theme">
+            <div class="client-1">
+                <img src="assets/img/client-1.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-2.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-9.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-4.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-5.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-6.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-7.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-10.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-11.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-12.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-13.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+            <div class="client-1">
+                <img src="assets/img/client-14.jpg" alt="Clinet-image" title="Client Image" class="img-fluid w-75">
+            </div>
+        </div>
+    </section>
+    <!-- end client section -->
+    <!-- start small footer section -->
+    <footer>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4">
+                <h2>Harmonica</h2>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet perferendis dolorum eligendi ducimus
+                    quisquam explicabo.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2">
+                <h5 class="pb-2 fw-bolder">Navigation</h5>
+                <ul class="quick-shop">
+                    <li class="list-unstyled"><a class="text-decoration-none text-light" href="index.html">Business</a></li>
+                    <li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="product.html">About Us</a></li>
+                    <li class="list-unstyled"><a class="text-decoration-none text-light" href="product-detail.html">Career</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 pb-3">
+                <h5>Media</h5>
+                <a href="#" class="social-media"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-media"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="social-media"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3">
+                <h5 class="pb-3">Contact</h5>
+                <p><i class="fa-solid fa-location-dot text-danger"></i>&nbsp;&nbsp;97/A West Basaboo Dhaka Banaladesh</p>
+                <p><i class="fa-solid fa-phone text-danger"></i>&nbsp;&nbsp;01766895553</p>
+                <p><i class="fa-solid fa-envelope text-danger"></i>&nbsp;&nbsp;errdff@email.com</p>
+            </div>
+        </div>
+        <hr />
+        <div class="small-footer">
+            <p> &copy; 2022 Harmonica </p>
+            <p>Design & Developed By : JS </p>
+        </div>
+    </footer>
+    <!-- end footer section -->
+    <!-- owl carsoul js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 6,
+            loop: true,
+            margin: 2,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>

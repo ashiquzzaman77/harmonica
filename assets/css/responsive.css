@@ -1,0 +1,98 @@
+
+/* =============================== lg =============================== */
+@media screen and (min-width: 991px) and (max-width: 1199px){
+    /* blog section */
+    #blog-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .blog-left {
+        flex-basis: 40%;
+    }
+
+    .blog-right {
+        flex-basis: 58%;
+        padding-top: 40px;
+    }
+}
+/* =============================== md =============================== */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+    /* content section */
+    #content-part h2 {
+        max-width: 700px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    /* blog section */
+    #blog-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .blog-left {
+        flex-basis: 40%;
+    }
+
+    .blog-right {
+        flex-basis: 58%;
+        padding-top: 40px;
+    }
+
+
+}
+/* =============================== sm =============================== */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* content section */
+    #content-part h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    /* blog section */
+    #blog-section {
+        padding-bottom: 20px;
+    }
+
+    .blog-left {
+        flex-basis: 100%;
+    }
+
+    .blog-right {
+        flex-basis: 100%;
+        padding-top: 40px;
+    }
+
+}
+/* ============================ xsm ============================== */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+    /* content section */
+    #content-part h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    /* gallery section  */
+    #gallery{
+        padding-top: 10px;
+    }
+    /* blog section */
+    #blog-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .blog-left {
+        flex-basis: 100%;
+    }
+
+    .blog-right {
+        flex-basis: 100%;
+        padding-top: 40px;
+    }
+    
+
+}
