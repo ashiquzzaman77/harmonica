@@ -38,17 +38,18 @@ body{
 } */
 /* navbar section */
 .navbar {
-    --bs-navbar-color: rgba(0, 0, 0, 0.55);
-    --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-    --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
-    --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
-    --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     --bs-navbar-toggler-border-color: #fff;
   }
   .navbar-toggler-icon {
-    background-image: var(--bs-navbar-toggler-icon-bg);
-    background-color: #E6ECF0;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("../img/menu.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
   }
   .navbar-toggler:focus {
     box-shadow: none;
@@ -125,10 +126,10 @@ img{
 }
 
 .blog-left{
-    flex-basis: 45%;  
+    flex-basis: 55%;  
 }
 .blog-right{
-    flex-basis: 45%;  
+    flex-basis: 35%;  
 }
 .blog-left h3{
     font-size: 36px;
@@ -212,12 +213,10 @@ img{
 }
 /* end client-section */
 /* start small footer  */
-
-/* end small footer  */
 footer{
     /* margin-top: 40px; */
     overflow-x: hidden;
-    padding: 60px 20px;
+    padding: 60px 30px;
     background: #2D2E31;
     color: #fff;
 }
@@ -248,3 +247,69 @@ footer{
     float: left;
 }
 /* end footer section */
+
+/* ==================================== management team ========================== */
+.vice-chairman{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-part{
+    flex-basis: 65%;
+}
+.right-part{
+    flex-basis: 30%;
+}
+.right-part img{
+    width: 100%;
+}
+.left-part-content{
+    direction: rtl;
+    padding-bottom: 10px;
+}
+.left-part-content-p{
+    text-align: justify;
+}
+
+/* =================================== career section ============================= */
+
+/* .hr-policy{
+    margin: 5px auto;
+    width: fit-content;
+}
+.hr-policy h3{
+    text-align: center;
+} */
+.current-offer{
+    margin: 60px auto 40px;
+    width: fit-content;
+}
+.job-offer{
+    border: 1px solid #999;
+    width: 700px;
+    height: 90px;
+    padding: 20px 20px;
+    background: #e9f4ea;
+    box-shadow: 2px 2px 10px 0px #999;
+    display: block;
+    margin: 20px auto;
+}
+.job-offer:hover{
+    background: rgb(239, 152, 152);
+    color: #fff;
+}
+#form-section{
+    background: #78909c;
+    padding: 50px 80px;
+}
+.contact-btn{
+    margin-top: 15px;
+    padding: 10px 35px;
+    background: #81c784;
+    border: 1px solid #81c784;
+    color: #fff;
+}
+.contact-btn:hover{
+    background: transparent;
+}
